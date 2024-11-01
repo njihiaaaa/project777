@@ -1,0 +1,32 @@
+/* General body font style */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+/* Section and Header Styles */
+h2.text-primary {
+    color: #007bff; /* Primary blue */
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.card-title.text-info {
+    color: #17a2b8; /* Info color */
+    font-weight: 600;
+}
+
+#about, #services {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    padding: 3em 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Card styling */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 1em;
+    background-color: #ffffff;
+}
